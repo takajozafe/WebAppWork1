@@ -23,7 +23,7 @@ $request_uri = substr($_SERVER['REQUEST_URI'], strrpos($_SERVER['REQUEST_URI'], 
                         <span class="h5 submenu"><i class="fa fa-caret-right" aria-hidden="true"></i> <a href="<?php echo base_url('/backend/managements/SettingCredit') ?>">{{ 'NAVIGATION_MANAGEMENT_CREDIT_BALANCE' | translate }}</a></span>
                         <span class="h5 submenu"><i class="fa fa-caret-right" aria-hidden="true"></i> <a href="<?php echo base_url('/backend/managements/SettingSharedPercentage') ?>">{{ 'NAVIGATION_MANAGEMENT_PT_SETTINGMEMBER' | translate }}</a></span>
                         <span class="h5 submenu"><i class="fa fa-caret-right" aria-hidden="true"></i> <a href="<?php echo base_url('/backend/managements/SettingBetPercentage') ?>">{{ 'NAVIGATION_MANAGEMENT_PT_SETTINGBET' | translate }}</a></span>
-                        <span class="h5 submenu"><i class="fa fa-caret-right" aria-hidden="true"></i> {{ 'NAVIGATION_MANAGEMENT_COMMISSION' | translate }}</span>
+                        <span class="h5 submenu"><i class="fa fa-caret-right" aria-hidden="true"></i> <a href="<?php echo base_url('/backend/managements/CommissionManage') ?>">{{ 'NAVIGATION_MANAGEMENT_COMMISSION' | translate }}</a></span>
                         <span class="h5 submenu"><i class="fa fa-caret-right" aria-hidden="true"></i> {{ 'NAVIGATION_MANAGEMENT_MIN_REWARD' | translate }}</span>
                         <span class="h5 submenu"><i class="fa fa-caret-right" aria-hidden="true"></i> {{ 'NAVIGATION_MANAGEMENT_TRANSFER' | translate }}</span>
                         <span class="h5 submenu"><i class="fa fa-caret-right" aria-hidden="true"></i> {{ 'NAVIGATION_MANAGEMENT_SET_TIME' | translate }}</span>

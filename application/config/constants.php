@@ -85,7 +85,7 @@ defined('EXIT__AUTO_MIN')      OR define('EXIT__AUTO_MIN', 9); // lowest automat
 defined('EXIT__AUTO_MAX')      OR define('EXIT__AUTO_MAX', 125); // highest automatically-assigned error code
 
 // Custom defined
-define('HOST_NAME', 'http://localhost/webapp/');
-define('API_URL', 'http://localhost/webapp/api/');
+define('HOST_NAME', 'http://localhost/webappwork/');
+define('API_URL', 'http://localhost/webappwork/api/');
 define('INVALID_TOKEN', 'Invalid token');
 define('TITLE_BACKEND', 'Backend system version 1.0.0');

@@ -3,7 +3,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 $vals = array(
 	'img_path'      => './captcha/',
-	'img_url'       => HOST_NAME.'/captcha/',
+	'img_url'       => '../captcha/',
 	'font_path'     => './commons/fonts/cs-prakas/cs-prakas.ttf',
 	'img_width'     => '150',
 	'img_height'    => 30,
@@ -11,7 +11,7 @@ $vals = array(
 	'word_length'   => 5,
 	'font_size'     => 16,
 	'img_id'        => 'captcha-image',
-	'pool'          => '0123456789',
+	'pool'          => '0123456789ABCDEFGHIGKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz',
 
 	// White background and border, black text and red grid
 	'colors'        => array(
